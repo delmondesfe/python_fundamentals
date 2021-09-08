@@ -1,0 +1,22 @@
+<pardida>
+    <ano>2002</ano>
+    <torneio>Rio São Paulo</torneio>
+    <times>
+        <mandante>São Paulo</mandante>
+        <visitante>Palmeiras</visitante>
+    </times>
+    <resultado>2x4
+        <gols>
+            <mandante>
+                <jogador1>Franca</jogador1>
+                <jogador2>Kaka</jogador2>
+            </mandante>
+            <visitante>
+                <jogador1>magrão</jogador1>
+                <jogador2>Claudecir</jogador2>
+                <jogador3>Alex</jogador3>
+                <jogador4>Arce</jogador4>
+            </visitante>
+        </gols>
+    </resultado>
+</pardida>

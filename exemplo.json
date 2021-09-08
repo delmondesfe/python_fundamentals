@@ -1,0 +1,15 @@
+{
+    "ano": "2002",
+    "torneio": "Rio São Paulo",
+    "times": {
+       "mandante": "São Paulo",
+       "visitante": "Palmeiras"
+    },
+    "resultado": "2x4",
+       "gols": {
+          "mandante": ["França","Kaka"],
+          "visitante": ["magrão","Claudecir","Alex","Arce"]
+
+       }
+    
+}
