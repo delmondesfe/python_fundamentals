@@ -6,4 +6,3 @@ class Colaborador:
         self.salario = 0.0
         self.cargo = ''
         self.encargos = 0.25
-        

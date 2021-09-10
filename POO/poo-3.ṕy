@@ -1,0 +1,25 @@
+class Produto:
+    def __init__(self,sku = '', nome = '', desc = '', preco = 0.0):
+        self.sku = sku
+        self.nome = nome
+        self.desc = desc
+        self.preco = preco
+        
+
+class CarrinhoDeCompras:
+    def  __init__(self):
+        self.carrinho = []
+        self.quantidade_produtos = 0
+        self.total = 0
+
+    def adicionaritem(self, produto):
+        self.carrinho.append[produto]
+        self.quantidade_produtos +=1
+
+
+    def removerProduto(self, nome_produto):
+        for produto in self.carrinho:
+            if produto.nome == nome_produto:
+                self.carrinho.remove(produto)
+                return 'produto removido'
+        return 'produto não foi encontrado'
