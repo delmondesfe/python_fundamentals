@@ -3,7 +3,7 @@ class Pilha:
         self.pilha = []
         self.topo = 0
         self._uso_interno = True
-        self.__mangle = True
+        self.__mangled = True
 
     def empilhar(self, item):
         self.pilha.append(item)
@@ -24,5 +24,4 @@ class Pilha:
 
 
 
-p = Pilha([1,2,3],3)
     
