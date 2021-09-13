@@ -1,8 +1,12 @@
+
+
+
+
 opcoes = {'1':lambda x,y: x+y,
           '2':lambda x,y: x-y,
           '3':lambda x,y: x*y,
           '4':lambda x,y: x/y,
-          '5':lambda x,y: exit()
+          '5':lambda _: exit()
           }
 
 

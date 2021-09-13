@@ -20,3 +20,5 @@ sql_drop = """
 
 
 cursor.execute(sql_create)
+
+conn.commit()

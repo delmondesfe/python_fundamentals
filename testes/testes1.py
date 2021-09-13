@@ -21,3 +21,7 @@ class TesteCalculadora(unittest.TestCase):
         n2 = 0
         div_zero = 'Não existe divisão por zero'
         self.assertEqual(div_zero, calculadora_teste.divisao(n1,n2))
+
+
+    if __name__=='__main__':
+        unittest.main()
