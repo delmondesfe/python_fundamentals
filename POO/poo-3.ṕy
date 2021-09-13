@@ -23,3 +23,9 @@ class CarrinhoDeCompras:
                 self.carrinho.remove(produto)
                 return 'produto removido'
         return 'produto não foi encontrado'
+
+    def calculaTotal(self):
+        soma = 0
+        for produto in self.carrinho:
+            soma += produto.preco
+        return soma

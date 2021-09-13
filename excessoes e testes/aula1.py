@@ -27,9 +27,12 @@ while True:
 
         except KeyError:
             print('Valor opção invalida')
+        
+        except ValueError:
+            print('Digite apenas numeros')
 
         except Exception as err:
-            print('Favor digitar um número', err)
+            print('Erro desconhecido', err)
 
         else:
             print(res)
